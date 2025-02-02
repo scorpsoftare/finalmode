@@ -1,112 +1,20 @@
--- Ty for help aftr.lua
+--[[
 
-local L_1_ = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
-local L_2_ = L_1_:CreateWindow({
-	Name = "Mafiozi hub",
-	Icon = 6168008923,
-	LoadingTitle = "MAFIA ROBLOX EXPLOIT!",
-	LoadingSubtitle = "Time to use hacks!",
-	ConfigurationSaving = {
-		Enabled = true,
-		FolderName = nil,
-		FileName = "Big Hub"
-	},
-	Discord = {
-		Enabled = false,
-		Invite = "noinvitelink",
-		RememberJoins = true
-	},
-	KeySystem = false,
-	KeySettings = {
-		Title = "Key system",
-		Subtitle = "Mafiozi hub",
-		Note = "",
-		FileName = "Key",
-		SaveKey = true,
-		GrabKeyFromSite = false,
-		Key = {
-			"",
-			"",
-			"",
-			""
-		}
-	}
-})
+████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+█░░░░░░██████████░░░░░░█░░░░░░░░░░░░░░█░░░░░░░░░░░░░░█░░░░░░░░░░█░░░░░░░░░░░░░░█░░░░░░░░░░░░░░░░░░█░░░░░░░░░░████░░░░░░██░░░░░░█░░░░░░██░░░░░░█░░░░░░░░░░░░░░███
+█░░▄▀░░░░░░░░░░░░░░▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀░░████░░▄▀░░██░░▄▀░░█░░▄▀░░██░░▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░███
+█░░▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀░░█░░▄▀░░░░░░▄▀░░█░░▄▀░░░░░░░░░░█░░░░▄▀░░░░█░░▄▀░░░░░░▄▀░░█░░░░░░░░░░░░▄▀▄▀░░█░░░░▄▀░░░░████░░▄▀░░██░░▄▀░░█░░▄▀░░██░░▄▀░░█░░▄▀░░░░░░▄▀░░███
+█░░▄▀░░░░░░▄▀░░░░░░▄▀░░█░░▄▀░░██░░▄▀░░█░░▄▀░░███████████░░▄▀░░███░░▄▀░░██░░▄▀░░█████████░░░░▄▀░░░░███░░▄▀░░██████░░▄▀░░██░░▄▀░░█░░▄▀░░██░░▄▀░░█░░▄▀░░██░░▄▀░░███
+█░░▄▀░░██░░▄▀░░██░░▄▀░░█░░▄▀░░░░░░▄▀░░█░░▄▀░░░░░░░░░░███░░▄▀░░███░░▄▀░░██░░▄▀░░███████░░░░▄▀░░░░█████░░▄▀░░██████░░▄▀░░░░░░▄▀░░█░░▄▀░░██░░▄▀░░█░░▄▀░░░░░░▄▀░░░░█
+█░░▄▀░░██░░▄▀░░██░░▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░███░░▄▀░░███░░▄▀░░██░░▄▀░░█████░░░░▄▀░░░░███████░░▄▀░░██████░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀░░██░░▄▀░░█░░▄▀▄▀▄▀▄▀▄▀▄▀░░█
+█░░▄▀░░██░░░░░░██░░▄▀░░█░░▄▀░░░░░░▄▀░░█░░▄▀░░░░░░░░░░███░░▄▀░░███░░▄▀░░██░░▄▀░░███░░░░▄▀░░░░█████████░░▄▀░░██████░░▄▀░░░░░░▄▀░░█░░▄▀░░██░░▄▀░░█░░▄▀░░░░░░░░▄▀░░█
+█░░▄▀░░██████████░░▄▀░░█░░▄▀░░██░░▄▀░░█░░▄▀░░███████████░░▄▀░░███░░▄▀░░██░░▄▀░░█░░░░▄▀░░░░███████████░░▄▀░░██████░░▄▀░░██░░▄▀░░█░░▄▀░░██░░▄▀░░█░░▄▀░░████░░▄▀░░█
+█░░▄▀░░██████████░░▄▀░░█░░▄▀░░██░░▄▀░░█░░▄▀░░█████████░░░░▄▀░░░░█░░▄▀░░░░░░▄▀░░█░░▄▀▄▀░░░░░░░░░░░░█░░░░▄▀░░░░████░░▄▀░░██░░▄▀░░█░░▄▀░░░░░░▄▀░░█░░▄▀░░░░░░░░▄▀░░█
+█░░▄▀░░██████████░░▄▀░░█░░▄▀░░██░░▄▀░░█░░▄▀░░█████████░░▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀░░████░░▄▀░░██░░▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀▄▀░░█
+█░░░░░░██████████░░░░░░█░░░░░░██░░░░░░█░░░░░░█████████░░░░░░░░░░█░░░░░░░░░░░░░░█░░░░░░░░░░░░░░░░░░█░░░░░░░░░░████░░░░░░██░░░░░░█░░░░░░░░░░░░░░█░░░░░░░░░░░░░░░░█
+████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
--- Создание вкладок
-local L_3_ = L_2_:CreateTab("Info", 4483362458)
-local L_4_ = L_2_:CreateTab("Troll", 6862780938)
-local L_5_ = L_2_:CreateTab("Exploits", 6168008923)
+]]--
 
--- Добавление кнопки в раздел Troll
-local L_6_ = L_4_:CreateButton({
-	Name = "VFly",
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/scorpsoftare/vfly/refs/heads/main/vfly"))()
-	end
-})
-
--- Добавление кнопки "Grab knife" в раздел Troll
-local L_7_ = L_4_:CreateButton({
-	Name = "Grab knife",
-	Callback = function()
-		loadstring(game:HttpGet("https://rawscripts.net/raw/Prison-Life-Grab-V3-18932"))()
-	end
-})
-
--- Добавление кнопки "Vereus" в разделе Troll
-local L_8_ = L_4_:CreateButton({
-	Name = "Vereus",
-	Callback = function()
-		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Roblox-VEREUS-monster-script-3746"))()
-	end
-})
-
--- Добавление кнопки "Divine" в разделе Troll
-local L_9_ = L_4_:CreateButton({
-	Name = "Divine",
-	Callback = function()
-		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fe-Goner-Fallen-Snow-24164"))()
-	end
-})
-
--- Добавление кнопки "Gojo satoru" в разделе Troll
-local L_10_ = L_4_:CreateButton({
-	Name = "Gojo satoru",
-	Callback = function()
-		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fe-universal-GOJO-moveset-27356"))()
-	end
-})
-
--- Добавление кнопки "C00lKid gui" в разделе Troll
-local L_11_ = L_4_:CreateButton({
-	Name = "C00lKid gui",
-	Callback = function()
-		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fe-Bypass-Gui-28220"))()
-	end
-})
-
--- Добавление кнопки "Free admin" в разделе Troll
-local L_12_ = L_4_:CreateButton({
-	Name = "Free admin",
-	Callback = function()
-		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Infinite-yeild-fe-14386"))()
-	end
-})
-
--- Добавление кнопки "Give All Tools" в разделе Troll
-local L_13_ = L_4_:CreateButton({
-	Name = "Give All Tools",
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/scorpsoftare/giveall/refs/heads/main/giveall"))()
-	end
-})
-
--- Добавление кнопки в раздел Exploits
-local L_14_ = L_5_:CreateButton({
-	Name = "Prison life exploit",
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/scorpsoftare/execute/refs/heads/main/execute"))()
-	end
-})
+local L_1_ = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()  local L_2_ = L_1_:CreateWindow({ Name = "Mafiozi hub", Icon = 6168008923, LoadingTitle = "MAFIA ROBLOX EXPLOIT!", LoadingSubtitle = "Time to use hacks!", ConfigurationSaving = { Enabled = true, FolderName = nil, FileName = "Big Hub" }, Discord = { Enabled = false, Invite = "noinvitelink", RememberJoins = true }, KeySystem = false, KeySettings = { Title = "Key system", Subtitle = "Dead or alive key system", Note = "", FileName = "Key", SaveKey = true, GrabKeyFromSite = false, Key = { "doa_134", "doa_135", "doa_175", "doa_762" } } })  local L_3_ = L_2_:CreateTab("Info", 4483362458) local L_4_ = L_2_:CreateTab("Troll", 6862780938) local L_5_ = L_2_:CreateTab("Exploits", 6168008923)  local L_6_ = L_4_:CreateButton({ Name = "VFly", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/scorpsoftare/vfly/refs/heads/main/vfly"))() end })  local L_7_ = L_4_:CreateButton({ Name = "Grab knife", Callback = function() loadstring(game:HttpGet("https://rawscripts.net/raw/Prison-Life-Grab-V3-18932"))() end })  local L_8_ = L_4_:CreateButton({ Name = "Vereus", Callback = function() loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Roblox-VEREUS-monster-script-3746"))() end })  local L_9_ = L_4_:CreateButton({ Name = "Divine", Callback = function() loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fe-Goner-Fallen-Snow-24164"))() end })  local L_10_ = L_4_:CreateButton({ Name = "Gojo satoru", Callback = function() loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fe-universal-GOJO-moveset-27356"))() end })  local L_11_ = L_4_:CreateButton({ Name = "C00lKid gui", Callback = function() loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fe-Bypass-Gui-28220"))() end })  local L_12_ = L_4_:CreateButton({ Name = "Free admin", Callback = function() loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Infinite-yeild-fe-14386"))() end })  local L_13_ = L_4_:CreateButton({ Name = "Give All Tools", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/scorpsoftare/giveall/refs/heads/main/giveall"))() end })  local L_14_ = L_5_:CreateButton({ Name = "Prison life exploit", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/scorpsoftare/execute/refs/heads/main/execute"))() end })  
